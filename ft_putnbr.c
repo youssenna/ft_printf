@@ -6,11 +6,11 @@
 /*   By: yousenna <yousenna@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/22 10:21:28 by yousenna          #+#    #+#             */
-/*   Updated: 2025/11/25 12:07:23 by yousenna         ###   ########.fr       */
+/*   Updated: 2025/11/27 13:43:04 by yousenna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_printf.h"
+#include "ft_printf.h"
 
 int	ft_putnbr(int nbr)
 {

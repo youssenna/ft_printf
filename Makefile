@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -Werror
 SRC = ft_printf.c ft_putaddr.c ft_putchar.c ft_puthex.c \
 		ft_putnbr.c ft_putstr.c ft_putunsig.c
 
-HEADER = libft_printf.h
+HEADER = ft_printf.h
 OBJ = ${SRC:.c=.o}
 
 all: ${NAME}
@@ -24,4 +24,5 @@ re: fclean all
 
 .PHONY: all clean fclean re
 
-.SECONDARY: #handling relinking
+#handling relinking
+.SECONDARY:

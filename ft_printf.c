@@ -6,12 +6,11 @@
 /*   By: yousenna <yousenna@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/22 19:56:54 by yousenna          #+#    #+#             */
-/*   Updated: 2025/11/25 19:17:55 by yousenna         ###   ########.fr       */
+/*   Updated: 2025/11/27 13:50:21 by yousenna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_printf.h"
-#include <stdio.h>
+#include "ft_printf.h"
 
 int	ft_print_out(const char *str, int *i, va_list *str_ptr)
 {
